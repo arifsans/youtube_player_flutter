@@ -11,11 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview:
+  # flutter_inappwebview:
+  #   git:
+  #     url: https://github.com/GabriellArthur/flutter_inappwebview.git
+  #     path: flutter_inappwebview
+  #     ref: master
+    flutter_inappwebview:
     git:
-      url: https://github.com/GabriellArthur/flutter_inappwebview.git
-      path: flutter_inappwebview
-      ref: master
+      url: https://github.com/arifsans/flutter_inappwebview.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
